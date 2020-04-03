@@ -47,6 +47,9 @@ const stringToEvaluate = "I really hope I get an apple";`
 }`
 
 
-## Steps to Deploy
+## Steps to Deploy to Heroku
 1. Login to Heroku if not already logged in. 
 2. Add and Commit changes to local git.
+3. Push changes to GitHub (if applicable)
+4. Run `heroku create`
+5. Run `git push heroku master`
